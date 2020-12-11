@@ -22,6 +22,7 @@ app.use(bodyParser.urlencoded({extended: true}));
 //Include routes here
 require("./routes/auth.routes")(app);
 require("./routes/homepage.routes")(app);
+require("./routes/services.routes")(app);
 
 app.get("/", (req, res) => {
     res.send("Express connection success")
