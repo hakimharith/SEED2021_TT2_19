@@ -1,6 +1,6 @@
 import React from "react";
 import { render } from "react-dom";
-
+import {Route, BrowserRouter as Router} from "react-router-dom";
 import { Col, Divider, Row, } from 'antd';
 import 'antd/dist/antd.css';
 
