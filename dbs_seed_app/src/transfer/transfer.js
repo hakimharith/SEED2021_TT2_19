@@ -31,7 +31,9 @@ export default class Transfer extends React.Component{
             <input TransferAmount="Transfer Amount"/>
           </label>
         </fieldset>
-        <button type="Submit">Transfer</button>
+        <Router>
+        <Route path="/transferdone" exact component={transferdone} />  <button type="Submit">Transfer</button>
+        </Router>
         </form>
       </div>
     )

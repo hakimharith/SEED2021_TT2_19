@@ -61,7 +61,9 @@ export default class TransferPage extends React.Component{
             </table>
           </Col>
         </Row>
-
+        <Router>
+        <Route path="/" exact component={Home} /><button type="Submit">Home</button>
+        </Router>
       </div>
     )
   }
